@@ -35,7 +35,7 @@ DataPointer(unsigned int, SkipEmblems, 0x174B08C);
 
 extern "C" {
 	__declspec(dllexport) void __cdecl Init(const char* path, const HelperFunctions& helperFunctions) {
-		if (helperFunctions.Mods->find("sa2.queensuzie.storystyleupgrades") != NULL) {
+		if (helperFunctions.Mods->find_by_name("Story Style Upgrades") != NULL) {
 			ReplaceCharacters::SSU_DETECTED = true;
 		}
 
