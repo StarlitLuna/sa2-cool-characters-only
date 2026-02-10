@@ -22,7 +22,7 @@
 #include <vector>
 
 HelperFunctions HelperFunctionsGlobal;
-const char* CCM_VERSION = "1.4.1";
+const char* CCM_VERSION = "1.4.2";
 std::string DEBUG_MESSAGE = "";
 int DEBUG_MESSAGE_TIMER = 0;
 int DEFAULT_MESSAGE_TIME = 30;
